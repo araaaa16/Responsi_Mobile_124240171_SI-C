@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
-  // --- Required Premium Minimalist Color System ---
   static const Color primaryBackground = Color(0xFFF7F8F6);
   static const Color cardBackground = Color(0xFFFFFFFF);
   static const Color primaryText = Color(0xFF202521);
@@ -170,7 +169,5 @@ class AppTheme {
       useMaterial3: true,
     );
   }
-
-  // Backward compatibility alias for darkTheme
   static ThemeData get darkTheme => lightTheme;
 }
